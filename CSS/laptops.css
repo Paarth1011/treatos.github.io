@@ -91,9 +91,28 @@
     margin: 2rem auto 0rem auto;
     margin: 0rem auto;
 }
+#overview .review .section-head{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 3.7rem;
+}
 #overview .overview-container{
     width: 90%;
     margin: 2rem auto 0rem auto;
+}
+#overview .overview-container .container-heading p{
+    font-size: 1.1rem;
+}
+.info-container{
+    margin: 2rem 0rem;
+}
+.overview-box{
+    display: flex;
+    align-items: center;
+    margin: 0rem 0rem 1.2rem 0rem;
+}
+.overview-info{
+    margin-left: 0.7rem;
 }
 
 /* FORM */
