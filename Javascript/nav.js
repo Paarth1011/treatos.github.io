@@ -13,7 +13,7 @@ function openNav()
     document.getElementById("nav-menu").style.transition = "all 0.4s";
     document.getElementById("nav-menu").style.animation = "fade-in 0.4s";
     document.getElementById("toggleMenu").style.marginTop = "100px";
-    document.getElementById("toggleMenu").style.transition = "all 0.2s";
+    document.getElementById("toggleMenu").style.transition = "all 0.4s";
     document.getElementById("toggleMenu").style.animation = "fade-out 0.4s";
     document.getElementById("toggleMenu").style.visibility = "hidden";   
 }
@@ -23,7 +23,7 @@ function closeNav()
     document.getElementById("nav-menu").style.transition = "all 0.4s";
     document.getElementById("nav-menu").style.animation = "fade-out 0.4s";
     document.getElementById("toggleMenu").style.marginTop = "0px";
-    document.getElementById("toggleMenu").style.transition = "all 0.2s";
+    document.getElementById("toggleMenu").style.transition = "all 0.4s";
     document.getElementById("toggleMenu").style.visibility = "visible";
     document.getElementById("toggleMenu").style.animation = "fade-in 0.4s";
     document.getElementById("toggleMenu").style.visibility = "visible";

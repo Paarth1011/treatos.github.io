@@ -72,7 +72,30 @@
     text-decoration: none;
     font-size: 17px;
 }
+
+/* PAGE NAME */
+
+#pgname{
+    margin: 5rem 0rem;
+}
+
 /* OVERVIEW */
+
+#overview{
+    padding: 2rem 0rem;
+    width: 100%;
+    flex-direction: column;
+}
+#overview .review{
+    width: 95%;
+    margin: 2rem auto 0rem auto;
+    margin: 0rem auto;
+}
+#overview .overview-container{
+    width: 90%;
+    margin: 2rem auto 0rem auto;
+}
+
 /* FORM */
 /* SUBSCRIPTION */
 /* FOOTER */
