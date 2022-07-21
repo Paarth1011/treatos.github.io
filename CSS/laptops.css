@@ -82,14 +82,12 @@
 /* OVERVIEW */
 
 #overview{
-    padding: 2rem 0rem;
-    width: 100%;
+    padding: 2rem 1rem;
     flex-direction: column;
 }
 #overview .review{
-    width: 95%;
-    margin: 2rem auto 0rem auto;
-    margin: 0rem auto;
+    width: 96%;
+    margin: 0rem auto 0rem auto;
 }
 #overview .review .section-head{
     font-size: 2.5rem;
@@ -97,22 +95,9 @@
     line-height: 3.7rem;
 }
 #overview .overview-container{
-    width: 90%;
-    margin: 2rem auto 0rem auto;
-}
-#overview .overview-container .container-heading p{
-    font-size: 1.1rem;
-}
-.info-container{
-    margin: 2rem 0rem;
-}
-.overview-box{
-    display: flex;
-    align-items: center;
-    margin: 0rem 0rem 1.2rem 0rem;
-}
-.overview-info{
-    margin-left: 0.7rem;
+    width: 95%;
+    margin: 2rem auto;
+    padding: 2rem 0rem 2rem 1rem;
 }
 
 /* FORM */
