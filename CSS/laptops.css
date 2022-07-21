@@ -47,7 +47,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid red; */
     width: 33.33%;
     cursor: pointer;
 }
@@ -102,4 +101,20 @@
 
 /* FORM */
 /* SUBSCRIPTION */
+
+#subscription{
+    flex-direction: column;
+    padding: 3rem 2rem;
+    margin: 0rem; 
+}
+#subscription .sub-head{
+    width: 98%;
+    padding: 0rem;
+    margin: 0rem;
+}
+#subscription .sub-field{
+    width: 97%;
+    margin-top: 3rem;
+}
+
 /* FOOTER */
