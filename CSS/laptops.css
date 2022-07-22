@@ -104,12 +104,12 @@
 /* FORM */
 
 #form{
-    flex-direction: column;
     padding: 2rem 1rem;
+    flex-direction: column;
 }
 #form .form-container{
     width: 95%;
-    margin: 0rem auto;
+    margin: 0rem;
 }
 #form .form-container .section-head{
     margin-bottom: 1rem;
@@ -132,7 +132,7 @@
 
 #subscription{
     flex-direction: column;
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
     margin: 0rem; 
 }
 #subscription .sub-head{
