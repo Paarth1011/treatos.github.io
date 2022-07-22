@@ -152,3 +152,49 @@
 }
 
 /* FOOTER */
+
+footer{
+    flex-direction: column-reverse;
+}
+footer .menu{
+    box-sizing: border-box;
+    padding: 1rem 1rem;
+    width: 100%;
+}
+footer .menu p{
+    text-align: center;
+}
+footer .menu .ql-food{
+    text-align: center;
+}
+footer .menu .ql-food ul{
+    margin-right: 0;
+    width: 100%;
+}
+footer .menu .ql-food .food-item{
+    display: none;
+}
+footer .contact{
+    width: 100%;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+}
+footer .contact img{
+    display: block;
+    width: 10rem;
+    margin: 0rem auto;
+
+}
+footer .contact .contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+footer .contact .contact-wrapper .footer-social{
+    justify-content: center;
+    width: 100%;
+}
+footer .contact .contact-wrapper .footer-social button{
+    margin: 0px 10px;
+}

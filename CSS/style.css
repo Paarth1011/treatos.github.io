@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding: 0;
     margin: 0;
@@ -349,7 +352,7 @@ footer{
 footer .menu{
     background-color: #1d1d1d;
     color: white;
-    padding: 2rem 5rem 1rem 4rem;
+    padding: 4rem 5rem 1rem 4rem;
     width: 50%;
     text-align: left;
 }
@@ -391,13 +394,14 @@ footer .menu .ql-food .food-item .food-card img:hover{
     cursor: pointer;
 }
 footer .contact{
-    background-color: black;
     width: 50%;
+    background-color: black;
 }
 footer .contact img{
-    margin-left: 3rem;
+    width: 10rem;
+    margin: 2rem 0rem 0rem 3rem;
 }
-footer .contact .contact-card{
+footer .contact .contact-wrapper .contact-card{
     display: flex;
     margin: 2rem;
 }
@@ -407,6 +411,8 @@ footer .contact .contact-card button{
     font-size: 1.2rem;
     border-radius: 0.5rem;
     margin-right: 1rem;
+    border: none;
+    outline: none;
 }
 footer .contact .contact-card button:hover{
     cursor: pointer;
@@ -416,6 +422,7 @@ footer .contact .contact-card .contact-info a{
     text-decoration: none;
 }
 footer .contact .footer-social{
+    display: flex;
     margin: 0rem 2rem;
 }
 footer .contact .footer-social button{
@@ -423,9 +430,10 @@ footer .contact .footer-social button{
     color: #fcc000;
     height: 2.7rem;
     width: 2.7rem;
-    margin: 1rem 0rem 0rem 0rem;
     font-size: 1.2rem;
-    border-radius: 0.2rem;
+    margin-right: 1px;
+    border: none;
+    outline: none;
 }
 footer .contact .footer-social button:hover{
     cursor: pointer;
