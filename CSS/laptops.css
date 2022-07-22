@@ -124,12 +124,5 @@
     box-sizing: border-box;
     margin-top: 2.5rem;
 }
-#subscription .outside{
-    display: block;
-    width: 100%;
-}
-#subscription .inside{
-    display: none;
-}
 
 /* FOOTER */
