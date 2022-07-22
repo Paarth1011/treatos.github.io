@@ -90,9 +90,9 @@
     margin: 0rem auto 0rem auto;
 }
 #overview .review .section-head{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
-    line-height: 3.7rem;
+    line-height: 3rem;
 }
 #overview .overview-container{
     width: 100%;
@@ -112,13 +112,21 @@
     margin: 0rem;
 }
 #form .form-container .section-head{
+    font-size: 2rem;
     margin-bottom: 1rem;
+    line-height: 3rem;
+}
+#form .form-container .form-cards{
+    display: block;
+    margin: 0px;
 }
 #form .form-container .form-cards .form-input{
-    width: 46%;
+    width: 96%;
+    margin-top: 15px;
 }
 #form .form-container .form-cards textarea{
     width: 96%;
+    margin-top: 15px
 }
 #form .schedule{
     width: 22rem;
