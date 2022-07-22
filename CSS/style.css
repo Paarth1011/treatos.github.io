@@ -188,7 +188,7 @@ body{
     background-color: white;
     width: 22rem;
     margin: 2rem auto;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     padding: 2rem 2rem 0rem 1.6rem;
 }
 .info-container{
@@ -209,58 +209,46 @@ body{
     margin-left: 0.7rem;
 }
 #form{
+    box-sizing: border-box;
     display: flex;
-    /* align-items: center; */
-    justify-content: center;
     overflow: hidden;
     background-color: black;
-    margin: 3rem 0rem 0rem 0rem;
-    padding: 1rem 0rem;
+    margin-top: 3rem;
+    padding: 2rem 0rem;
 }
-.form-container{
+#form .form-container{
     display: flex;
+    width: 55%;
+    margin: 0rem auto;
     flex-direction: column;
-    justify-content: center;
-    margin: 3rem 7rem 3rem 0rem;
-    width: 50rem;   
 }
-.form-container .form-input{
-    margin: 0.5rem 1.5rem 0.5rem 0rem;
-    padding: 0.7rem 0.5rem;
-    caret-color: white;
+#form .form-container .form-cards{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+#form .form-container .form-cards .form-input, #form .form-container .form-cards textarea{
+    display: block;
+    background-color: black;
     color: rgb(196, 196, 196);
+    caret-color: white;
     font-size: 0.9rem;
-    outline: 0;
     border-width: 0px 0px 1px;
     border-color: rgb(102, 102, 102);
-    background-color: black;
+    outline: 0;
+    margin: 0rem auto 0rem 0rem;
+    float: none;
+    padding: 0.7rem 0.5rem;
 }
-.form-container .form-input::placeholder{
+#form .form-container .form-cards .form-input{
+    width: 45%;
+}
+#form .form-container .form-cards textarea{
+    width: 95%;
+}
+#form .form-container .form-cards .form-input::placeholder, #form .form-container .form-cards textarea::placeholder{
     color: rgb(196, 196, 196);
     font-size: 0.9rem;
-}
-.width-msg{
-    width: 19rem;
-}
-.schedule{
-    background-color: white;
-    border-radius: 0.5rem;
-    padding: 2rem 3rem 0rem 2.5rem;
-    margin: 2rem 0rem;
-    height: 30rem;
-}
-.schedule-card-container{
-    margin: 2rem 0rem;
-}
-.schedule-cards{
-    width: 17rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 0.9rem;
-    font-weight: bolder;
-    padding: 1rem 0rem;
-    border-bottom: 1px solid rgb(197, 197, 197);
 }
 #form .form-container .submit-btn{
     display: flex;
@@ -277,6 +265,28 @@ body{
 #form .form-container .submit-btn:hover{
     cursor: pointer;
     background-color: #d8a601;
+}
+.schedule{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 2rem 3rem 0rem 2.5rem;
+    width: 23rem;
+    margin: 0rem auto;
+    /* height: 30rem; */
+}
+.schedule-card-container{
+    margin: 2rem 0rem;
+}
+.schedule-cards{
+    width: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    padding: 1rem 0rem;
+    border-bottom: 1px solid rgb(197, 197, 197);
 }
 #subscription{
     display: flex;
