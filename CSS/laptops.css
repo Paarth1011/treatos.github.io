@@ -101,46 +101,32 @@
 
 /* FORM */
 
-/* FOR TABLETS
-
-#form{
-    padding: 2rem 1rem;
-    flex-direction: column;
-}
-#form .form-container{
-    width: 100%;
-    margin: 0rem;
-}
-#form .form-container .section-head{
-    margin-bottom: 1rem;
-}
-#form .form-container .form-cards .form-input{
-    width: 46%;
-}
-#form .form-container .form-cards textarea{
-    width: 96%;
-}
-#form .schedule{
-    width: 22rem;
-    margin: 0rem auto;
-}
-#form .form-container .submit-btn{
-    width: 100%;
-    margin: 2rem auto;
-} */
-
 #form{
     padding: 2rem;
+    align-items: center;
+}
+#form .form-container{
+    padding-right: 1rem;
 }
 #form .form-container .section-head{
     font-size: 2.3rem;
     line-height: 3rem;
 }
+#form .form-container .form-cards{
+    box-sizing: border-box;
+    width: 100%;
+}
+#form .form-container .form-cards .form-input{
+    box-sizing: border-box;
+}
+#form .form-container .form-cards textarea{
+    box-sizing: border-box;
+}
 /* SUBSCRIPTION */
 
 #subscription{
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 2rem;
     margin: 0rem; 
 }
 #subscription .sub-head{

@@ -90,10 +90,10 @@
     margin: 0rem auto 0rem auto;
 }
 #overview .review .section-head{
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin-bottom: 1rem;
-    line-height: 3rem;
     text-align: center;
+    line-height: 3rem;
 }
 #overview .review p{
     text-align: center;
@@ -116,22 +116,16 @@
     margin: 0rem;
 }
 #form .form-container .section-head{
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin-bottom: 1rem;
     line-height: 3rem;
     text-align: center;
 }
-#form .form-container .form-cards{
-    display: block;
-    margin: 0rem;
-}
 #form .form-container .form-cards .form-input{
-    width: 96%;
-    margin-top: 1rem;
+    width: 45%;
 }
 #form .form-container .form-cards textarea{
-    width: 96%;
-    margin-top: 1rem;
+    width: 95%;
 }
 #form .schedule{
     width: 22rem;
@@ -150,10 +144,10 @@
 }
 #subscription .sub-head{
     width: 100%;
+    text-align: center;
     box-sizing: border-box;
     padding: 0rem;
     margin: 0rem;
-    text-align: center;
 }
 #subscription .sub-head p{
     font-size: 1.65rem;
