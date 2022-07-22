@@ -81,24 +81,22 @@
 /* OVERVIEW */
 
 #overview{
-    padding: 2rem 1rem;
-    flex-direction: column;
+    padding: 2rem;
 }
 #overview .review{
-    width: 100%;
+    width: 60%;
     box-sizing: border-box;
-    margin: 0rem auto 0rem auto;
+    margin: 0rem auto;
 }
 #overview .review .section-head{
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    line-height: 3.7rem;
+    font-size: 2.2rem;
+    line-height: 3rem;
 }
 #overview .overview-container{
-    width: 100%;
+    width: 20rem;
     box-sizing: border-box;
-    margin: 2rem auto;
-    padding: 2rem 0rem 2rem 1rem;
+    margin: 2rem auto 2rem 2rem;
+    /* padding: 2rem 0rem 2rem 1rem; */
 }
 
 /* FORM */
@@ -112,21 +110,13 @@
     margin: 0rem;
 }
 #form .form-container .section-head{
-    font-size: 2.5rem;
     margin-bottom: 1rem;
-    line-height: 3rem;
-}
-#form .form-container .form-cards{
-    display: block;
-    margin: 0rem;
 }
 #form .form-container .form-cards .form-input{
-    width: 96%;
-    margin-top: 1rem;
+    width: 46%;
 }
 #form .form-container .form-cards textarea{
     width: 96%;
-    margin-top: 1rem;
 }
 #form .schedule{
     width: 22rem;
