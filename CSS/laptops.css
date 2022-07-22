@@ -85,7 +85,8 @@
     flex-direction: column;
 }
 #overview .review{
-    width: 96%;
+    width: 100%;
+    box-sizing: border-box;
     margin: 0rem auto 0rem auto;
 }
 #overview .review .section-head{
@@ -94,7 +95,8 @@
     line-height: 3.7rem;
 }
 #overview .overview-container{
-    width: 95%;
+    width: 100%;
+    box-sizing: border-box;
     margin: 2rem auto;
     padding: 2rem 0rem 2rem 1rem;
 }
@@ -104,17 +106,22 @@
 
 #subscription{
     flex-direction: column;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
     margin: 0rem; 
 }
 #subscription .sub-head{
-    width: 98%;
+    width: 100%;
+    box-sizing: border-box;
     padding: 0rem;
     margin: 0rem;
 }
+#subscription .sub-head p{
+    font-size: 1.65rem;
+}
 #subscription .sub-field{
-    width: 97%;
-    margin-top: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 2.5rem;
 }
 
 /* FOOTER */
