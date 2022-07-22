@@ -327,7 +327,7 @@ body{
     width: 100%;
     margin: 0rem auto;
 }
-.email-field input::placeholder{
+#subscription .sub-field .email-field input::placeholder{
     font-size: 1rem;
 }
 #subscription .sub-field .subscribe{
@@ -345,23 +345,23 @@ body{
 footer{
     display: flex;
     overflow: hidden;
-    justify-content: center;
 }
 footer .menu{
     background-color: #1d1d1d;
     color: white;
     padding: 2rem 5rem 1rem 4rem;
     width: 50%;
-    justify-content: space-around;
+    text-align: left;
 }
 footer .menu .ql-food{
     display: flex;
     justify-content: center;
 }
 footer .menu .ql-food ul{
+    margin-right: auto;
     top: 0;
     left: 0;
-    margin: 0rem 11rem 3rem 0rem;
+    width: 25%;
 }
 footer .menu .ql-food ul li{
     list-style-type: none;
@@ -374,6 +374,9 @@ footer .menu .ql-food ul a{
 }
 footer .menu .ql-food ul li:hover{
     color: rgb(190, 190, 190);
+}
+footer .menu .ql-food .food-item{
+    margin-left: auto;
 }
 footer .menu .ql-food .food-item .food-card img{
     width: 5rem;
