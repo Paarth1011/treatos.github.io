@@ -302,9 +302,11 @@ body{
 }
 #subscription .sub-field .email-field{
     width: 100%;
+    box-sizing: border-box;
     margin: auto;
 }
 #subscription .sub-field input{
+    box-sizing: border-box;
     background-color: #242424;
     padding: 0rem 0.5rem;
     border: none;
@@ -318,13 +320,18 @@ body{
 .email-field input::placeholder{
     font-size: 1rem;
 }
-#subscription .sub-field .subscribe{
+#subscription .subscribe{
     display: flex;
     border: none;
     border-radius: 0.2rem;
     font-size: 1rem;
     padding: 0.5rem 2rem;
     font-weight: 500;
+}
+#subscription .outside{
+    display: none;
+    color: #242424;
+    background-color: #ffd755;
 }
 #subscription .sub-field .subscribe:hover{
     cursor: pointer;
