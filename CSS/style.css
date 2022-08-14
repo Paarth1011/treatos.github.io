@@ -293,7 +293,6 @@ body{
     padding: 2rem 3rem 0rem 2.5rem;
     width: 23rem;
     margin: 0rem auto;
-    /* height: 30rem; */
 }
 .schedule-card-container{
     margin: 2rem 0rem;
@@ -462,6 +461,9 @@ footer .contact .footer-social button:hover{
 {
     #navbar{
         justify-content: space-between;
+    }
+    #navbar #toggleMenu{
+        display: none;
     }
     #navbar .contact{
         display: none;
